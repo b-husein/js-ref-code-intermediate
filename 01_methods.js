@@ -29,3 +29,42 @@ console.log(document.querySelector('.brand'));
 console.log(document.querySelector('h2'));
 
 document.querySelector('h2').textContent = 'Hi there';
+
+// MULTIPLE ELEMENTS SELECTORS OR METHODS:
+
+// document.getElementsByClassName();
+
+let myTitles = document.getElementsByClassName('card-title');
+
+console.log(myTitles);
+console.log(myTitles[2]);
+
+myTitles[2].style.color = 'blue';
+myTitles[0].textContent = 'The first item';
+
+// document.getElementsByTagName();
+
+let myHeaders = document.getElementsByTagName('h2');
+
+console.log(myHeaders);
+myHeaders[2].style.color = 'blue';
+
+// // Array.from() method:
+
+myHeaders = Array.from(myHeaders);
+
+myHeaders.forEach((h2) => {
+  h2.textContent = 'Hi there';
+});
+
+console.log(myHeaders);
+
+// document.querySelectorAll();
+
+let myHeaders = document.querySelectorAll('card-title');
+
+let allHeaders = document.querySelectorAll('h2');
+let i;
+for (i = 0; i < allHeaders.length; i++) {
+  allHeaders[i].style.backgroundColor = 'red';
+}
