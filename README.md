@@ -1,12 +1,6 @@
 # js-ref-code-intermediate
 ## reference code for JS intermediate level crash course on my YT channel; 
 
-🔥 FOLLOW ME ON:
-
-🚀 https://github.com/b-husein
-
-🚀 https://www.linkedin.com/in/pragmaticxyz/
-
 💻 USEFUL PLAYLISTS:
 
 👊 HTML5
